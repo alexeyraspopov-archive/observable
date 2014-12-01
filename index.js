@@ -57,7 +57,7 @@ function observable(value){
 	};
 
 	cell.reduce = function(reducer, initial){
-		var reduced = observable();
+		var reduced = observable(initial);
 
 		cell.map(function(value){
 			return reducer(reduced(), value);
