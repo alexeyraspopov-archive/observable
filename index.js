@@ -46,12 +46,12 @@ function observable(value){
 		return filtered;
 	};
 
-	cell.concat = function(observable){
+	cell.concat = function(another){
 		// todo: bind?
 		var merged = observable();
 
 		cell.subscribe(merged);
-		observable.subscribe(merged);
+		another.subscribe(merged);
 
 		return merged;
 	};
