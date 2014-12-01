@@ -1,6 +1,6 @@
 {
   "name": "observable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Naive Observable monad implementation",
   "main": "index.js",
   "scripts": {
