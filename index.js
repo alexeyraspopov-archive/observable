@@ -48,7 +48,7 @@ function observable(value){
 
 	cell.concat = function(another){
 		// todo: bind?
-		var merged = observable();
+		var merged = observable(value);
 
 		cell.subscribe(merged);
 		another.subscribe(merged);
