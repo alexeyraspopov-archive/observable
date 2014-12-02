@@ -1,4 +1,13 @@
-'use strict';
+function Observable(generator){
+	return {
+		bind: function(){
+
+		}
+	};
+}
+
+exports.Observable = Observable;
+/*'use strict';
 var newsletter = require('newsletter');
 
 function observable(value){
@@ -74,3 +83,4 @@ function observable(value){
 }
 
 module.exports = observable;
+*/

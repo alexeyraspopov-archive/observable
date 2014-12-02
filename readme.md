@@ -2,6 +2,8 @@
 
 Naive Observable monad implementation.
 
+## API
+
 ## Usage
 
 TBD
